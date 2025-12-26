@@ -1,3 +1,5 @@
+![Prompt Composer Icon](logo/prompt_composer_logo.svg)
+
 # Prompt Composer (Godot 4.4+)
 Prompt Composer is a lightweight editor plugin that lets you build structured AI prompts directly from selected code in the Script editor. It does **not** send code anywhere; it only formats text and copies it to your clipboard.
 
@@ -10,6 +12,9 @@ Prompt Composer is a lightweight editor plugin that lets you build structured AI
 - Live prompt preview
 - Settings persistence (saved to `user://ai_prompt_composer_settings.json`)
 - Templates stored in `user://ai_prompt_templates.json`
+
+### Main interface
+![Prompt Composer – main interface](screenshots/overview.png)
 
 ## Install
 - Copy `addons/ai_prompt_composer/` into your project
@@ -27,6 +32,9 @@ Prompt Composer is a lightweight editor plugin that lets you build structured AI
   - Windows: `%APPDATA%/Godot/app_userdata/<ProjectName>/`
   - Linux: `~/.local/share/godot/app_userdata/<ProjectName>/`
   - macOS: `~/Library/Application Support/Godot/app_userdata/<ProjectName>/`
+
+### Template selection
+![Template presets and search](screenshots/templates.png)
 
 ## License
 MIT
